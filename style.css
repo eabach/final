@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #E8ECEE;
+  color: #13222D;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.wraper {
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #b9c3c9;
+}
+
+header .my-site {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #13222D;
+
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: sans-serif;
+  color: #56656f;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+  color: #13222D;
+  border-bottom: 3px solid #b9c3c9;
+}
+
+nav a.yeat {
+  color: #13222D;
+  border-bottom: 3px solid #2b4eff;
+}
+
+main {
+  padding: 3rem 1.5rem 4rem 1.5rem;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04rem;
+  margin: 0 0 1.5rem 0;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem 0;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.body {
+  max-width: 34rem;
+  color: #56656f;
+  font-size: 1.2rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 0.4rem;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+  color: #56656f;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2.5rem;
+  align-items: end;
+  margin-top: 2rem;
+}
+
+/*home page*/
+
+.intro {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2.5rem;
+  align-items: end;
+  margin-top: 2rem;
+}
+
+.intro figure img {
+  border: 1px solid #b9c3c9;
+  box-shadow: 0.6rem 0.6rem #2b4eff;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #B9C3C9;
+}
+ 
+.sections a {
+  color: #13222D;
+  text-decoration: none;
+}
+ 
+.sections a:hover {
+  color: #2B4EFF;
+}
+ 
+.sections p {
+  margin: 0;
+  color: #56656F;
+  font-size: 1rem;
+}
