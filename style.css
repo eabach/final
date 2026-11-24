@@ -155,3 +155,27 @@ figcaption {
   color: #56656F;
   font-size: 1rem;
 }
+
+/*photo and design*/
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.gallery .wide {
+  grid-column: span 2;
+}
+
+/*capstone*/
+
+
+footer {
+  padding: 1.5rem;
+  border-top: 1px solid #b9c3c9;
+  color: #56656f;
+  font-size: 0.95rem;
+}
+
+
